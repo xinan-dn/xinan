@@ -1,7 +1,7 @@
 package com.xinan.system.service.impl;
 
 import com.xinan.common.core.text.Convert;
-import com.xinan.system.entity.SysLogininfor;
+import com.xinan.system.domain.SysLogininfor;
 import com.xinan.system.mapper.SysLogininforMapper;
 import com.xinan.system.service.ISysLogininforService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 系统访问日志情况信息 服务层处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysLogininforServiceImpl implements ISysLogininforService

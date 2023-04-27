@@ -3,7 +3,7 @@ package com.xinan.common.constant;
 /**
  * 任务调度通用常量
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class ScheduleConstants
 {

@@ -3,7 +3,7 @@ package com.xinan.common.enums;
 /**
  * 操作状态
  * 
- * @author xinan
+ * @author ruoyi
  */
 public enum BusinessStatus
 {

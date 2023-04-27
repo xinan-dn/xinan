@@ -1,13 +1,13 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysUserPost;
+import com.xinan.system.domain.SysUserPost;
 
 import java.util.List;
 
 /**
  * 用户与岗位关联表 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysUserPostMapper
 {

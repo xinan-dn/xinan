@@ -9,7 +9,7 @@ package com.xinan.quartz.config;//package com.xinan.quartz.config;
 ///**
 // * 定时任务配置（单机部署建议默认走内存，如需集群需要创建qrtz数据库表/打开类注释）
 // * 
-// * @author xinan
+// * @author ruoyi
 // */
 //@Configuration
 //public class ScheduleConfig
@@ -22,7 +22,7 @@ package com.xinan.quartz.config;//package com.xinan.quartz.config;
 //
 //        // quartz参数
 //        Properties prop = new Properties();
-//        prop.put("org.quartz.scheduler.instanceName", "xinanScheduler");
+//        prop.put("org.quartz.scheduler.instanceName", "RuoyiScheduler");
 //        prop.put("org.quartz.scheduler.instanceId", "AUTO");
 //        // 线程池配置
 //        prop.put("org.quartz.threadPool.class", "org.quartz.simpl.SimpleThreadPool");
@@ -42,7 +42,7 @@ package com.xinan.quartz.config;//package com.xinan.quartz.config;
 //        prop.put("org.quartz.jobStore.tablePrefix", "QRTZ_");
 //        factory.setQuartzProperties(prop);
 //
-//        factory.setSchedulerName("xinanScheduler");
+//        factory.setSchedulerName("RuoyiScheduler");
 //        // 延时启动
 //        factory.setStartupDelay(1);
 //        factory.setApplicationContextSchedulerContextKey("applicationContextKey");

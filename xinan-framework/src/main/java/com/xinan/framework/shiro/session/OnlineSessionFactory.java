@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 自定义sessionFactory会话
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Component
 public class OnlineSessionFactory implements SessionFactory

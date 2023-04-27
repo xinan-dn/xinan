@@ -2,7 +2,7 @@ package com.xinan.framework.shiro.service;
 
 import com.xinan.common.utils.StringUtils;
 import com.xinan.framework.shiro.session.OnlineSession;
-import com.xinan.system.entity.SysUserOnline;
+import com.xinan.system.domain.SysUserOnline;
 import com.xinan.system.service.ISysUserOnlineService;
 import org.apache.shiro.session.Session;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import java.io.Serializable;
 /**
  * 会话db操作处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Component
 public class SysShiroService

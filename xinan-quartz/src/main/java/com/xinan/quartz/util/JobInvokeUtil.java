@@ -2,7 +2,7 @@ package com.xinan.quartz.util;
 
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.spring.SpringUtils;
-import com.xinan.quartz.entity.SysJob;
+import com.xinan.quartz.domain.SysJob;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 任务执行工具
  *
- * @author xinan
+ * @author ruoyi
  */
 public class JobInvokeUtil
 {

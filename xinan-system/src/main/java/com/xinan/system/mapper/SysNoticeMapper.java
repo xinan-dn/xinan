@@ -1,13 +1,13 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysNotice;
+import com.xinan.system.domain.SysNotice;
 
 import java.util.List;
 
 /**
  * 公告 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysNoticeMapper
 {

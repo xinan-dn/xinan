@@ -1,7 +1,7 @@
 package com.xinan.quartz.service;
 
 import com.xinan.common.exception.job.TaskException;
-import com.xinan.quartz.entity.SysJob;
+import com.xinan.quartz.domain.SysJob;
 import org.quartz.SchedulerException;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 定时任务调度信息信息 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysJobService
 {

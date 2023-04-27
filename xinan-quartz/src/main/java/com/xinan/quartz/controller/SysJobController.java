@@ -9,7 +9,7 @@ import com.xinan.common.enums.BusinessType;
 import com.xinan.common.exception.job.TaskException;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.poi.ExcelUtil;
-import com.xinan.quartz.entity.SysJob;
+import com.xinan.quartz.domain.SysJob;
 import com.xinan.quartz.service.ISysJobService;
 import com.xinan.quartz.util.CronUtils;
 import com.xinan.quartz.util.ScheduleUtils;
@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * 调度任务信息操作处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Controller
 @RequestMapping("/monitor/job")

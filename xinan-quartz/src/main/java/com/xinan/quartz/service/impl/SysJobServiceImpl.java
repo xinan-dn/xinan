@@ -3,7 +3,7 @@ package com.xinan.quartz.service.impl;
 import com.xinan.common.constant.ScheduleConstants;
 import com.xinan.common.core.text.Convert;
 import com.xinan.common.exception.job.TaskException;
-import com.xinan.quartz.entity.SysJob;
+import com.xinan.quartz.domain.SysJob;
 import com.xinan.quartz.mapper.SysJobMapper;
 import com.xinan.quartz.service.ISysJobService;
 import com.xinan.quartz.util.CronUtils;
@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * 定时任务调度信息 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysJobServiceImpl implements ISysJobService

@@ -15,7 +15,7 @@ import java.beans.PropertyDescriptor;
 /**
  * permission 工具类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class PermissionUtils
 {

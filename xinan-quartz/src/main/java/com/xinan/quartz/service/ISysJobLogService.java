@@ -1,13 +1,13 @@
 package com.xinan.quartz.service;
 
-import com.xinan.quartz.entity.SysJobLog;
+import com.xinan.quartz.domain.SysJobLog;
 
 import java.util.List;
 
 /**
  * 定时任务调度日志信息信息 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysJobLogService
 {

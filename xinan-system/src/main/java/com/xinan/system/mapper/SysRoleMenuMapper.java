@@ -1,13 +1,13 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysRoleMenu;
+import com.xinan.system.domain.SysRoleMenu;
 
 import java.util.List;
 
 /**
  * 角色与菜单关联表 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysRoleMenuMapper
 {

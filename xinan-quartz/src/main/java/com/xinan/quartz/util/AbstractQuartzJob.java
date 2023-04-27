@@ -6,8 +6,8 @@ import com.xinan.common.utils.ExceptionUtil;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.bean.BeanUtils;
 import com.xinan.common.utils.spring.SpringUtils;
-import com.xinan.quartz.entity.SysJob;
-import com.xinan.quartz.entity.SysJobLog;
+import com.xinan.quartz.domain.SysJob;
+import com.xinan.quartz.domain.SysJobLog;
 import com.xinan.quartz.service.ISysJobLogService;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
@@ -20,7 +20,7 @@ import java.util.Date;
 /**
  * 抽象quartz调用
  *
- * @author xinan
+ * @author ruoyi
  */
 public abstract class AbstractQuartzJob implements Job
 {

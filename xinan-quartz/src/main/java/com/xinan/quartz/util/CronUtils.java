@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * cron表达式工具类
  * 
- * @author xinan
+ * @author ruoyi
  *
  */
 public class CronUtils

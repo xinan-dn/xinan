@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * Filter配置
  *
- * @author xinan
+ * @author ruoyi
  */
 @Configuration
 @ConditionalOnProperty(value = "xss.enabled", havingValue = "true")

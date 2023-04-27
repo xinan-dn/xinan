@@ -3,7 +3,7 @@ package com.xinan.common.core.domain;
 /**
  * Tree基类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class TreeEntity extends BaseEntity
 {

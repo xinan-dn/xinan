@@ -5,8 +5,8 @@ import com.xinan.common.constant.GenConstants;
 import com.xinan.common.utils.DateUtils;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.generator.config.GenConfig;
-import com.xinan.generator.entity.GenTable;
-import com.xinan.generator.entity.GenTableColumn;
+import com.xinan.generator.domain.GenTable;
+import com.xinan.generator.domain.GenTableColumn;
 import org.apache.velocity.VelocityContext;
 
 import java.util.ArrayList;

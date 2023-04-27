@@ -1,13 +1,13 @@
 package com.xinan.system.service;
 
-import com.xinan.system.entity.SysLogininfor;
+import com.xinan.system.domain.SysLogininfor;
 
 import java.util.List;
 
 /**
  * 系统访问日志情况信息 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysLogininforService
 {

@@ -5,7 +5,7 @@ import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.bean.BeanUtils;
 import com.xinan.common.utils.spring.SpringUtils;
 import com.xinan.framework.shiro.session.OnlineSession;
-import com.xinan.system.entity.SysUserOnline;
+import com.xinan.system.domain.SysUserOnline;
 import com.xinan.system.service.ISysUserOnlineService;
 import org.apache.commons.lang3.time.DateUtils;
 import org.apache.shiro.session.ExpiredSessionException;
@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 主要是在此如果会话的属性修改了 就标识下其修改了 然后方便 OnlineSessionDao同步
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class OnlineWebSessionManager extends DefaultWebSessionManager
 {

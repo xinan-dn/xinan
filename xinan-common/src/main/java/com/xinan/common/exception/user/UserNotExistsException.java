@@ -3,7 +3,7 @@ package com.xinan.common.exception.user;
 /**
  * 用户不存在异常类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class UserNotExistsException extends UserException
 {

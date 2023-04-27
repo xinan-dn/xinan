@@ -1,13 +1,13 @@
 package com.xinan.system.service;
 
-import com.xinan.system.entity.SysNotice;
+import com.xinan.system.domain.SysNotice;
 
 import java.util.List;
 
 /**
  * 公告 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysNoticeService
 {

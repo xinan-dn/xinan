@@ -1,13 +1,13 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysUserOnline;
+import com.xinan.system.domain.SysUserOnline;
 
 import java.util.List;
 
 /**
  * 在线用户 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysUserOnlineMapper
 {

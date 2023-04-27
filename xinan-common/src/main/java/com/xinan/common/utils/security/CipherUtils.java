@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * 对称密钥密码算法工具类
  *
- * @author xinan
+ * @author ruoyi
  */
 public class CipherUtils
 {

@@ -9,9 +9,9 @@ import com.xinan.common.exception.ServiceException;
 import com.xinan.common.utils.ShiroUtils;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.spring.SpringUtils;
-import com.xinan.system.entity.SysRoleDept;
-import com.xinan.system.entity.SysRoleMenu;
-import com.xinan.system.entity.SysUserRole;
+import com.xinan.system.domain.SysRoleDept;
+import com.xinan.system.domain.SysRoleMenu;
+import com.xinan.system.domain.SysUserRole;
 import com.xinan.system.mapper.SysRoleDeptMapper;
 import com.xinan.system.mapper.SysRoleMapper;
 import com.xinan.system.mapper.SysRoleMenuMapper;
@@ -26,7 +26,7 @@ import java.util.*;
 /**
  * 角色 业务层处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysRoleServiceImpl implements ISysRoleService

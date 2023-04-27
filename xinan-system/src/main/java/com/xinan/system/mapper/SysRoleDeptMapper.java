@@ -1,13 +1,13 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysRoleDept;
+import com.xinan.system.domain.SysRoleDept;
 
 import java.util.List;
 
 /**
  * 角色与部门关联表 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysRoleDeptMapper
 {

@@ -1,6 +1,6 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysUserRole;
+import com.xinan.system.domain.SysUserRole;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 用户与角色关联表 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysUserRoleMapper
 {

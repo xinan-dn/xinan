@@ -3,7 +3,7 @@ package com.xinan.common.exception;
 /**
  * 工具类异常
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class UtilException extends RuntimeException
 {

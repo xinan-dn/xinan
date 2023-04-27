@@ -1,13 +1,13 @@
 package com.xinan.generator.mapper;
 
-import com.xinan.generator.entity.GenTable;
+import com.xinan.generator.domain.GenTable;
 
 import java.util.List;
 
 /**
  * 业务 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface GenTableMapper
 {

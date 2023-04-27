@@ -1,7 +1,7 @@
 package com.xinan.system.service.impl;
 
 import com.xinan.common.core.text.Convert;
-import com.xinan.system.entity.SysOperLog;
+import com.xinan.system.domain.SysOperLog;
 import com.xinan.system.mapper.SysOperLogMapper;
 import com.xinan.system.service.ISysOperLogService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 操作日志 服务层处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysOperLogServiceImpl implements ISysOperLogService

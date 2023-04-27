@@ -6,7 +6,7 @@ import com.xinan.common.core.text.Convert;
 import com.xinan.common.exception.ServiceException;
 import com.xinan.common.utils.CacheUtils;
 import com.xinan.common.utils.StringUtils;
-import com.xinan.system.entity.SysConfig;
+import com.xinan.system.domain.SysConfig;
 import com.xinan.system.mapper.SysConfigMapper;
 import com.xinan.system.service.ISysConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * 参数配置 服务层实现
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysConfigServiceImpl implements ISysConfigService

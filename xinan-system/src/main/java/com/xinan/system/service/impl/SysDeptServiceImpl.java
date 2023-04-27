@@ -24,7 +24,7 @@ import java.util.List;
 /**
  * 部门管理 服务实现
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysDeptServiceImpl implements ISysDeptService

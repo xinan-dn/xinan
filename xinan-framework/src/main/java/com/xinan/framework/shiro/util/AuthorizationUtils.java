@@ -7,7 +7,7 @@ import org.apache.shiro.mgt.RealmSecurityManager;
 /**
  * 用户授权信息
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class AuthorizationUtils
 {

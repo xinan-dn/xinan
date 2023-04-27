@@ -1,7 +1,7 @@
 package com.xinan.generator.service.impl;
 
 import com.xinan.common.core.text.Convert;
-import com.xinan.generator.entity.GenTableColumn;
+import com.xinan.generator.domain.GenTableColumn;
 import com.xinan.generator.mapper.GenTableColumnMapper;
 import com.xinan.generator.service.IGenTableColumnService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 业务字段 服务层实现
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class GenTableColumnServiceImpl implements IGenTableColumnService

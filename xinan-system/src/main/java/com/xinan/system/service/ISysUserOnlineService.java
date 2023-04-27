@@ -1,6 +1,6 @@
 package com.xinan.system.service;
 
-import com.xinan.system.entity.SysUserOnline;
+import com.xinan.system.domain.SysUserOnline;
 
 import java.util.Date;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 在线用户 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysUserOnlineService
 {

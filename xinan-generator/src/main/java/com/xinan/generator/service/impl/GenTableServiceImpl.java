@@ -8,8 +8,8 @@ import com.xinan.common.core.text.CharsetKit;
 import com.xinan.common.core.text.Convert;
 import com.xinan.common.exception.ServiceException;
 import com.xinan.common.utils.StringUtils;
-import com.xinan.generator.entity.GenTable;
-import com.xinan.generator.entity.GenTableColumn;
+import com.xinan.generator.domain.GenTable;
+import com.xinan.generator.domain.GenTableColumn;
 import com.xinan.generator.mapper.GenTableColumnMapper;
 import com.xinan.generator.mapper.GenTableMapper;
 import com.xinan.generator.service.IGenTableService;
@@ -42,7 +42,7 @@ import java.util.zip.ZipOutputStream;
 /**
  * 业务 服务层实现
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class GenTableServiceImpl implements IGenTableService

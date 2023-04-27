@@ -1,7 +1,7 @@
 package com.xinan.system.service.impl;
 
 import com.xinan.common.core.text.Convert;
-import com.xinan.system.entity.SysNotice;
+import com.xinan.system.domain.SysNotice;
 import com.xinan.system.mapper.SysNoticeMapper;
 import com.xinan.system.service.ISysNoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 公告 服务层实现
  * 
- * @author xinan
+ * @author ruoyi
  * @date 2018-06-25
  */
 @Service

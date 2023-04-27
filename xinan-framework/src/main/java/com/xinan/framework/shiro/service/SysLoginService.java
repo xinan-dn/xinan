@@ -22,7 +22,7 @@ import java.util.Set;
 /**
  * 登录校验方法
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Component
 public class SysLoginService

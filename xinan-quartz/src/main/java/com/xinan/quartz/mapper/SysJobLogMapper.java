@@ -1,13 +1,13 @@
 package com.xinan.quartz.mapper;
 
-import com.xinan.quartz.entity.SysJobLog;
+import com.xinan.quartz.domain.SysJobLog;
 
 import java.util.List;
 
 /**
  * 调度任务日志信息 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysJobLogMapper
 {

@@ -6,7 +6,7 @@ import com.xinan.common.utils.ServletUtils;
 /**
  * 表格数据处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class TableSupport
 {

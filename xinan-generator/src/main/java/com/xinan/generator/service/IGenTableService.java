@@ -1,6 +1,6 @@
 package com.xinan.generator.service;
 
-import com.xinan.generator.entity.GenTable;
+import com.xinan.generator.domain.GenTable;
 
 import java.util.List;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * 业务 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface IGenTableService
 {

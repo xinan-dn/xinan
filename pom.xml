@@ -9,7 +9,7 @@
 
     <name>xinan</name>
     <url>https://www.xinan.run</url>
-    <description>西南创业base</description>
+    <description>西南创业项目</description>
 
     <properties>
         <xinan.version>1.0.0</xinan.version>
@@ -183,7 +183,7 @@
                 <version>${xinan.version}</version>
             </dependency>
 
-            <!-- AImme-艾米智媒 -->
+            <!-- AImme-艾米智媒-->
             <dependency>
                 <groupId>com.xinan</groupId>
                 <artifactId>xinan-aimme</artifactId>
@@ -194,13 +194,13 @@
     </dependencyManagement>
 
     <modules>
-        <module>xinan-aimme</module>
-        <module>xinan-admin</module>
-        <module>xinan-framework</module>
         <module>xinan-system</module>
         <module>xinan-quartz</module>
         <module>xinan-generator</module>
+        <module>xinan-framework</module>
         <module>xinan-common</module>
+        <module>xinan-admin</module>
+        <module>xinan-aimme</module>
     </modules>
     <packaging>pom</packaging>
 

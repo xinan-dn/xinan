@@ -6,7 +6,7 @@ import com.xinan.common.utils.StringUtils;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author xinan 序列生成类
+ * @author ruoyi 序列生成类
  */
 public class Seq
 {

@@ -1,13 +1,13 @@
 package com.xinan.system.service;
 
-import com.xinan.system.entity.SysPost;
+import com.xinan.system.domain.SysPost;
 
 import java.util.List;
 
 /**
  * 岗位信息 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysPostService
 {

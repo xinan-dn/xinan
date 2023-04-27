@@ -1,13 +1,13 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysPost;
+import com.xinan.system.domain.SysPost;
 
 import java.util.List;
 
 /**
  * 岗位信息 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysPostMapper
 {

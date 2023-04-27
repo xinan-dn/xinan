@@ -3,7 +3,7 @@ package com.xinan.common.utils.uuid;
 /**
  * ID生成器工具类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class IdUtils
 {

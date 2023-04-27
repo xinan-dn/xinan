@@ -5,9 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * xinan首创 html调用 thymeleaf 实现参数管理
+ * RuoYi首创 html调用 thymeleaf 实现参数管理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service("config")
 public class ConfigService

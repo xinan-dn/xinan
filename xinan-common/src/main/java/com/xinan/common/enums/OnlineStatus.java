@@ -3,7 +3,7 @@ package com.xinan.common.enums;
 /**
  * 用户会话
  * 
- * @author xinan
+ * @author ruoyi
  */
 public enum OnlineStatus
 {

@@ -1,13 +1,13 @@
 package com.xinan.system.mapper;
 
-import com.xinan.system.entity.SysOperLog;
+import com.xinan.system.domain.SysOperLog;
 
 import java.util.List;
 
 /**
  * 操作日志 数据层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface SysOperLogMapper
 {

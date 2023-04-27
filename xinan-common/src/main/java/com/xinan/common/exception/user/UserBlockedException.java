@@ -3,7 +3,7 @@ package com.xinan.common.exception.user;
 /**
  * 用户锁定异常类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class UserBlockedException extends UserException
 {

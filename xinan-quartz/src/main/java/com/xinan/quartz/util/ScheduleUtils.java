@@ -6,13 +6,13 @@ import com.xinan.common.exception.job.TaskException;
 import com.xinan.common.exception.job.TaskException.Code;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.spring.SpringUtils;
-import com.xinan.quartz.entity.SysJob;
+import com.xinan.quartz.domain.SysJob;
 import org.quartz.*;
 
 /**
  * 定时任务工具类
  * 
- * @author xinan
+ * @author ruoyi
  *
  */
 public class ScheduleUtils

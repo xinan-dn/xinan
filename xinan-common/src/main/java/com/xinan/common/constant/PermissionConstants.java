@@ -3,7 +3,7 @@ package com.xinan.common.constant;
 /**
  * 权限通用常量
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class PermissionConstants
 {

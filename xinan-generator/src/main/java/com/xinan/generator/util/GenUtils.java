@@ -3,8 +3,8 @@ package com.xinan.generator.util;
 import com.xinan.common.constant.GenConstants;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.generator.config.GenConfig;
-import com.xinan.generator.entity.GenTable;
-import com.xinan.generator.entity.GenTableColumn;
+import com.xinan.generator.domain.GenTable;
+import com.xinan.generator.domain.GenTableColumn;
 import org.apache.commons.lang3.RegExUtils;
 
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import java.util.Arrays;
 /**
  * 代码生成器 工具类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class GenUtils
 {

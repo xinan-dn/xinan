@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 字典工具类
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Component
 public class DictUtils

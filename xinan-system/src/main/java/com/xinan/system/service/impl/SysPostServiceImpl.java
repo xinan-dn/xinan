@@ -4,7 +4,7 @@ import com.xinan.common.constant.UserConstants;
 import com.xinan.common.core.text.Convert;
 import com.xinan.common.exception.ServiceException;
 import com.xinan.common.utils.StringUtils;
-import com.xinan.system.entity.SysPost;
+import com.xinan.system.domain.SysPost;
 import com.xinan.system.mapper.SysPostMapper;
 import com.xinan.system.mapper.SysUserPostMapper;
 import com.xinan.system.service.ISysPostService;
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 岗位信息 服务层处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysPostServiceImpl implements ISysPostService

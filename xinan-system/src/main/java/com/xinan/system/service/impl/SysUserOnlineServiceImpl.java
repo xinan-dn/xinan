@@ -4,7 +4,7 @@ import com.xinan.common.constant.ShiroConstants;
 import com.xinan.common.utils.DateUtils;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.spring.SpringUtils;
-import com.xinan.system.entity.SysUserOnline;
+import com.xinan.system.domain.SysUserOnline;
 import com.xinan.system.mapper.SysUserOnlineMapper;
 import com.xinan.system.service.ISysUserOnlineService;
 import org.apache.shiro.cache.Cache;
@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * 在线用户 服务层处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysUserOnlineServiceImpl implements ISysUserOnlineService

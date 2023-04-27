@@ -3,7 +3,7 @@ package com.xinan.common.exception.user;
 /**
  * 用户错误记数异常类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class UserPasswordRetryLimitCountException extends UserException
 {

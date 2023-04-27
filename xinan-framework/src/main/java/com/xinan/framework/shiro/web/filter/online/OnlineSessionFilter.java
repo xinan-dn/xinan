@@ -19,7 +19,7 @@ import java.io.IOException;
 /**
  * 自定义访问控制
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class OnlineSessionFilter extends AccessControlFilter
 {

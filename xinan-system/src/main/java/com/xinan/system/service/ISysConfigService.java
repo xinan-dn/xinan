@@ -1,13 +1,13 @@
 package com.xinan.system.service;
 
-import com.xinan.system.entity.SysConfig;
+import com.xinan.system.domain.SysConfig;
 
 import java.util.List;
 
 /**
  * 参数配置 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysConfigService
 {

@@ -10,7 +10,7 @@ import com.xinan.common.utils.ShiroUtils;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.framework.manager.AsyncManager;
 import com.xinan.framework.manager.factory.AsyncFactory;
-import com.xinan.system.entity.SysOperLog;
+import com.xinan.system.domain.SysOperLog;
 import org.apache.commons.lang3.ArrayUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -32,7 +32,7 @@ import java.util.Map;
 /**
  * 操作日志记录处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Aspect
 @Component

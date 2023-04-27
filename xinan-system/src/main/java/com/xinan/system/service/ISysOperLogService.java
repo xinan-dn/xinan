@@ -1,13 +1,13 @@
 package com.xinan.system.service;
 
-import com.xinan.system.entity.SysOperLog;
+import com.xinan.system.domain.SysOperLog;
 
 import java.util.List;
 
 /**
  * 操作日志 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysOperLogService
 {

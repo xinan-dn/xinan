@@ -7,8 +7,8 @@ import com.xinan.common.core.page.TableDataInfo;
 import com.xinan.common.enums.BusinessType;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.poi.ExcelUtil;
-import com.xinan.quartz.entity.SysJob;
-import com.xinan.quartz.entity.SysJobLog;
+import com.xinan.quartz.domain.SysJob;
+import com.xinan.quartz.domain.SysJobLog;
 import com.xinan.quartz.service.ISysJobLogService;
 import com.xinan.quartz.service.ISysJobService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * 调度日志操作处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Controller
 @RequestMapping("/monitor/jobLog")

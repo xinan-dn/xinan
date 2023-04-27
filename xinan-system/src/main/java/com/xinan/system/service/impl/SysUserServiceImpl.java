@@ -11,9 +11,9 @@ import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.bean.BeanValidators;
 import com.xinan.common.utils.security.Md5Utils;
 import com.xinan.common.utils.spring.SpringUtils;
-import com.xinan.system.entity.SysPost;
-import com.xinan.system.entity.SysUserPost;
-import com.xinan.system.entity.SysUserRole;
+import com.xinan.system.domain.SysPost;
+import com.xinan.system.domain.SysUserPost;
+import com.xinan.system.domain.SysUserRole;
 import com.xinan.system.mapper.*;
 import com.xinan.system.service.ISysConfigService;
 import com.xinan.system.service.ISysUserService;
@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 /**
  * 用户 业务层处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysUserServiceImpl implements ISysUserService

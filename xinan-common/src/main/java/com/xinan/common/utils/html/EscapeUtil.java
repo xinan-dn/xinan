@@ -5,7 +5,7 @@ import com.xinan.common.utils.StringUtils;
 /**
  * 转义和反转义工具类
  * 
- * @author xinan
+ * @author ruoyi
  */
 public class EscapeUtil
 {

@@ -1,14 +1,14 @@
 package com.xinan.system.service;
 
 import com.xinan.common.core.domain.entity.SysUser;
-import com.xinan.system.entity.SysUserRole;
+import com.xinan.system.domain.SysUserRole;
 
 import java.util.List;
 
 /**
  * 用户 业务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface ISysUserService
 {

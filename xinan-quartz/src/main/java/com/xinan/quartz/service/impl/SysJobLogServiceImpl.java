@@ -1,7 +1,7 @@
 package com.xinan.quartz.service.impl;
 
 import com.xinan.common.core.text.Convert;
-import com.xinan.quartz.entity.SysJobLog;
+import com.xinan.quartz.domain.SysJobLog;
 import com.xinan.quartz.mapper.SysJobLogMapper;
 import com.xinan.quartz.service.ISysJobLogService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 定时任务调度日志信息 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Service
 public class SysJobLogServiceImpl implements ISysJobLogService

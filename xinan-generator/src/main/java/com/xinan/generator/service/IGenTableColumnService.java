@@ -1,13 +1,13 @@
 package com.xinan.generator.service;
 
-import com.xinan.generator.entity.GenTableColumn;
+import com.xinan.generator.domain.GenTableColumn;
 
 import java.util.List;
 
 /**
  * 业务字段 服务层
  * 
- * @author xinan
+ * @author ruoyi
  */
 public interface IGenTableColumnService
 {

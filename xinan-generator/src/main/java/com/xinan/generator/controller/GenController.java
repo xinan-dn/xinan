@@ -15,8 +15,8 @@ import com.xinan.common.enums.BusinessType;
 import com.xinan.common.utils.StringUtils;
 import com.xinan.common.utils.security.PermissionUtils;
 import com.xinan.common.utils.sql.SqlUtil;
-import com.xinan.generator.entity.GenTable;
-import com.xinan.generator.entity.GenTableColumn;
+import com.xinan.generator.domain.GenTable;
+import com.xinan.generator.domain.GenTableColumn;
 import com.xinan.generator.service.IGenTableColumnService;
 import com.xinan.generator.service.IGenTableService;
 import org.apache.commons.io.IOUtils;
@@ -37,7 +37,7 @@ import java.util.Map;
 /**
  * 代码生成 操作处理
  * 
- * @author xinan
+ * @author ruoyi
  */
 @Controller
 @RequestMapping("/tool/gen")
@@ -293,7 +293,7 @@ public class GenController extends BaseController
     private void genCode(HttpServletResponse response, byte[] data) throws IOException
     {
         response.reset();
-        response.setHeader("Content-Disposition", "attachment; filename=\"xinan.zip\"");
+        response.setHeader("Content-Disposition", "attachment; filename=\"ruoyi.zip\"");
         response.addHeader("Content-Length", "" + data.length);
         response.setContentType("application/octet-stream; charset=UTF-8");
         IOUtils.write(data, response.getOutputStream());
