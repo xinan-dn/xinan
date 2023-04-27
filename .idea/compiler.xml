@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="xinan-framework" />
-        <module name="xinan-quartz" />
-        <module name="xinan-generator" />
-        <module name="xinan-common" />
-        <module name="xinan-admin" />
-        <module name="xinan-aimme" />
-        <module name="xinan-system" />
-      </profile>
-    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xinan-admin" target="1.8" />
+      <module name="xinan-aimme" target="1.8" />
+      <module name="xinan-common" target="1.8" />
+      <module name="xinan-framework" target="1.8" />
+      <module name="xinan-generator" target="1.8" />
+      <module name="xinan-quartz" target="1.8" />
+      <module name="xinan-system" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

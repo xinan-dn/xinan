@@ -31,8 +31,8 @@
 
         <!-- 通用工具-->
         <dependency>
-            <groupId>com.xinan</groupId>
-            <artifactId>xinan-common</artifactId>
+            <groupId>com.ruoyi</groupId>
+            <artifactId>ruoyi-common</artifactId>
         </dependency>
 
     </dependencies>
