@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44640d6a-c648-482f-a9be-e9b4417f578f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/clean.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/package.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/xinan-admin/quartz.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/xinan-admin/sys.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/若依环境使用手册.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ry.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ry.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/XiNanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/XiNanServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/common/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/controller/DemoDialogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/controller/DemoFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/controller/DemoIconController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/controller/DemoOperateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/controller/DemoReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/controller/DemoTableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/domain/CustomerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/domain/GoodsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/demo/domain/UserOperateModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/monitor/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/monitor/DruidController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/monitor/ServerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/monitor/SysLogininforController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/monitor/SysOperlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/monitor/SysUserOnlineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysCaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysDictDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysDictTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysNoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/system/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/tool/BuildController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/tool/SwaggerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/controller/tool/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/java/com/xinan/web/core/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/application-druid.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/ehcache/ehcache-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/beautifyhtml/beautifyhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/blockUI/jquery.blockUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-fileinput/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-fileinput/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-fileinput/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-fileinput/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-fileinput/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-fileinput/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-select/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-select/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-select/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-select/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/auto-refresh/bootstrap-table-auto-refresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/columns/bootstrap-table-fixed-columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/custom-view/bootstrap-table-custom-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/editable/bootstrap-editable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/editable/bootstrap-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/editable/bootstrap-table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/editable/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/editable/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/export/bootstrap-table-export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/export/tableExport.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/print/bootstrap-table-print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/reorder-columns/jquery.dragtable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/reorder-rows/jquery.tablednd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/resizable/bootstrap-table-resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/resizable/jquery.resizableColumns.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/tree/bootstrap-table-tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/extensions/tree/bootstrap-table-tree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/cropper/cropper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/cropper/cropper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/cxselect/jquery.cxselect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/cxselect/jquery.cxselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/datapicker/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/datapicker/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/datapicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/datapicker/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/duallistbox/bootstrap-duallistbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/duallistbox/bootstrap-duallistbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/duallistbox/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/duallistbox/bootstrap-duallistbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/flot/curvedLines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/fullscreen/jquery.fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/highlight/default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/highlight/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/iCheck/green-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/iCheck/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/iCheck/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jasny/jasny-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jasny/jasny-bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jasny/jasny-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-layout/jquery.layout-latest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-layout/jquery.layout-latest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/left_menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/left_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.all-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.core-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.excheck-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.exedit-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.exhide-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jquery-ztree/3.5/log v3.x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jsonview/jquery.jsonview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/jsonview/jquery.jsonview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layer/theme/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layui/layui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/layui/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/report/echarts/echarts-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/report/peity/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/report/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/select2/select2-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/smartwizard/jquery.smartWizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/smartwizard/smart_wizard_all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/suggest/bootstrap-suggest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/suggest/bootstrap-suggest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/font/summernote.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/summernote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/summernote/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/typeahead/bootstrap-typeahead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/typeahead/bootstrap-typeahead.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/validate/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/validate/jquery.validate.extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ajax/libs/validate/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/jquery.contextMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/login.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/skins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/css/zen-checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/file/rml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/fonts/zenicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/html/ie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/loading-upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/cron.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/jquery.contextMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/jquery.i18n.properties.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/jquery.tmpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/resize-tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/js/three.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ruoyi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ruoyi/css/ry-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ruoyi/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ruoyi/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ruoyi/js/ry-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ruoyi/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/static/ruoyi/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/autocomplete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/cxselect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/datetime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/duallistbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/jasny.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/labels_tips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/localrefresh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/progress_bars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/sortable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/summernote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/tabs_panels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/validate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/form/wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/icon/fontawesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/icon/glyphicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/table/check.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/table/frame1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/table/frame2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/table/parent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/modal/table/radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/operate/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/operate/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/operate/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/operate/other.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/operate/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/report/echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/report/metrics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/report/peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/report/sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/asynTree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/child.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/curd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/customView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/dynamicColumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/editable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/export.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/exportSelected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/fixedColumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/groupHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/headerStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/multi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/other.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/pageGo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/params.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/print.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/refresh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/remember.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/reorderColumns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/reorderRows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/resizable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/demo/table/subdata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/error/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/error/unauth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/include.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/index-topnav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/lock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/main_v1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/monitor/cache/cache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/monitor/logininfor/logininfor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/monitor/online/online.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/monitor/operlog/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/monitor/operlog/operlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/monitor/server/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/skin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/config/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/config/config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/config/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dept/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dept/dept.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dept/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dept/tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dict/data/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dict/data/data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dict/data/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dict/type/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dict/type/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dict/type/tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/dict/type/type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/menu/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/menu/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/menu/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/menu/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/menu/tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/notice/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/notice/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/notice/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/post/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/post/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/post/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/role/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/role/authUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/role/dataScope.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/role/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/role/role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/role/selectUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/authRole.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/deptTree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/profile/avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/profile/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/profile/resetPwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/resetPwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/system/user/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-admin/src/main/resources/templates/tool/build/build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-aimme/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/annotation/DataScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/annotation/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/annotation/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/annotation/Excels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/annotation/RepeatSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/config/XiNanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/config/datasource/DynamicDataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/config/thread/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/constant/GenConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/constant/PermissionConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/constant/ScheduleConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/constant/ShiroConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/constant/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/context/PermissionContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/CxSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/TreeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/Ztree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/entity/SysDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/entity/SysDictData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/entity/SysDictType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/entity/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/domain/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/page/PageDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/page/TableDataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/page/TableSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/text/CharsetKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/text/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/core/text/StrFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/enums/BusinessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/enums/BusinessType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/enums/DataSourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/enums/OnlineStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/enums/OperatorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/DemoModeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/UtilException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/base/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/file/FileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/file/FileSizeLimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/file/FileUploadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/file/InvalidExtensionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/job/TaskException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/BlackListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/CaptchaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/RoleBlockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/UserBlockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/UserDeleteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/UserNotExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/UserPasswordRetryLimitCountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/exception/user/UserPasswordRetryLimitExceedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/json/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/json/JSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/AddressUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/Arith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/CacheUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/DictUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/MapDataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/ServletUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/ShiroUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/bean/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/bean/BeanValidators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/file/FileTypeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/file/FileUploadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/file/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/file/ImageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/file/MimeTypeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/html/EscapeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/html/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/http/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/poi/ExcelHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/poi/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/reflect/ReflectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/security/CipherUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/security/Md5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/security/PermissionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/spring/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/sql/SqlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/uuid/IdUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/uuid/Seq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/utils/uuid/UUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/xss/Xss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-common/src/main/java/com/xinan/common/xss/XssValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/aspectj/DataScopeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/aspectj/DataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/aspectj/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/aspectj/PermissionsAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/CaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/I18nConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/KaptchaTextCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/ResourcesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/config/properties/DruidProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/datasource/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/interceptor/RepeatSubmitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/interceptor/impl/SameUrlDataInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/manager/AsyncManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/manager/ShutdownManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/manager/factory/AsyncFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/realm/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/service/SysLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/service/SysPasswordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/service/SysRegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/service/SysShiroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/session/OnlineSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/session/OnlineSessionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/session/OnlineSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/util/AuthorizationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/CustomShiroFilterFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/filter/LogoutFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/filter/captcha/CaptchaValidateFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/filter/kickout/KickoutSessionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/filter/online/OnlineSessionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/session/OnlineWebSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/shiro/web/session/SpringSessionValidationScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/domain/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/domain/server/Cpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/domain/server/Jvm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/domain/server/Mem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/domain/server/Sys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/domain/server/SysFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/service/ConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-framework/src/main/java/com/xinan/framework/web/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/config/GenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/controller/GenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/domain/GenTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/domain/GenTableColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/mapper/GenTableColumnMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/mapper/GenTableMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/service/IGenTableColumnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/service/IGenTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/service/impl/GenTableColumnServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/service/impl/GenTableServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/util/GenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/util/VelocityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/java/com/xinan/generator/util/VelocityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/generator.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/html/add.html.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/html/edit.html.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/html/list-tree.html.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/html/list.html.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/html/tree.html.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/java/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/java/domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/java/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/java/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/java/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/java/sub-domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/sql/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-generator/src/main/resources/vm/xml/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/config/ScheduleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/controller/SysJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/controller/SysJobLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/domain/SysJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/domain/SysJobLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/mapper/SysJobLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/mapper/SysJobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/service/ISysJobLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/service/ISysJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/service/impl/SysJobLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/service/impl/SysJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/task/RyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/util/AbstractQuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/util/CronUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/util/JobInvokeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/util/QuartzDisallowConcurrentExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/util/QuartzJobExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-quartz/src/main/java/com/xinan/quartz/util/ScheduleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysLogininfor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysOperLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysRoleDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysUserOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysUserPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/domain/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysDictDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysDictTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysLogininforMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysNoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysOperLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysRoleDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysUserOnlineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysUserPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysDictDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysDictTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysLogininforService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysNoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysOperLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysUserOnlineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/ISysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysDictDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysDictTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysLogininforServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysOperLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysPostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysUserOnlineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinan-system/src/main/java/com/xinan/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ozu0Q7MbQjoHuLvf5z2EF0K4qS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\xinan" />
+      <recent name="D:\WorkSpace\xinan\xinan-admin\src\main\java" />
+      <recent name="D:\WorkSpace\xinan\xinan-admin\src\main\resources" />
+      <recent name="D:\WorkSpace\xinan\xinan-system\src\main\resources" />
+      <recent name="D:\WorkSpace\xinan\xinan-system\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="XiNanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xinan-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xinan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinan.XiNanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.XiNanApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44640d6a-c648-482f-a9be-e9b4417f578f" name="Changes" comment="" />
+      <created>1682575509009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682575509009</updated>
+      <workItem from="1682575511520" duration="2570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
