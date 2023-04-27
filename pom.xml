@@ -8,7 +8,8 @@
     <version>1.0.0</version>
 
     <name>xinan</name>
-    <description>西南创业项目</description>
+    <url>https://www.xinan.run</url>
+    <description>西南创业base</description>
 
     <properties>
         <xinan.version>1.0.0</xinan.version>
@@ -182,10 +183,10 @@
                 <version>${xinan.version}</version>
             </dependency>
 
-            <!-- 管理后台 -->
+            <!-- AImme-艾米智媒 -->
             <dependency>
                 <groupId>com.xinan</groupId>
-                <artifactId>xinan-admin</artifactId>
+                <artifactId>xinan-aimme</artifactId>
                 <version>${xinan.version}</version>
             </dependency>
 
@@ -195,11 +196,11 @@
     <modules>
         <module>xinan-aimme</module>
         <module>xinan-admin</module>
-        <module>xinan-common</module>
         <module>xinan-framework</module>
-        <module>xinan-generator</module>
-        <module>xinan-quartz</module>
         <module>xinan-system</module>
+        <module>xinan-quartz</module>
+        <module>xinan-generator</module>
+        <module>xinan-common</module>
     </modules>
     <packaging>pom</packaging>
 
